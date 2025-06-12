@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayaka Miki</title>
+    
+    <!-- Tailwind CSS para estilização rápida e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Define a fonte Comic Sans como padrão para todo o corpo da página */
+        body {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-gray-200">
+
+    <!-- Container Principal -->
+    <div class="container mx-auto max-w-6xl p-4 sm:p-6 lg:p-8">
+
+        <div class="bg-slate-800 rounded-2xl shadow-2xl overflow-hidden">
+            <!-- Header com o nome do personagem -->
+            <header class="p-8 bg-slate-700/50">
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">Sayaka Miki</h1>
+                <p class="mt-2 text-lg text-cyan-400">Garota Mágica da Justiça / Oktavia von Seckendorff</p>
+            </header>
+
+            <!-- Conteúdo Principal em Grid -->
+            <main class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 p-8">
+
+                <!-- Coluna da Esquerda: Imagem e Informações Rápidas -->
+                <aside class="lg:col-span-1 space-y-8">
+                    <!-- Card da Imagem Principal -->
+                    <img 
+                        src="gif%20meu.gif" 
+                        alt="Retrato de Sayaka Miki" 
+                        class="w-full aspect-square object-cover rounded-lg shadow-md border-4 border-slate-700"
+                        onerror="this.onerror=null;this.src='https://placehold.co/600x600/1e293b/94a3b8?text=Erro+ao\ncarregar+imagem';"
+                    >
+
+                    <!-- Card de Informações -->
+                    <div class="bg-slate-700/50 p-6 rounded-lg">
+                        <h2 class="text-2xl font-bold text-white mb-4 border-b-2 border-cyan-500 pb-2">Informações</h2>
+                        <ul class="space-y-3 text-gray-300">
+                            <li><strong>Espécie:</strong> Humana / Garota Mágica / Bruxa</li>
+                            <li><strong>Idade:</strong> 14</li>
+                            <li><strong>Altura:</strong> 1,58-1,60 m</li>
+                            <li><strong>Ocupação:</strong> Estudante / Garota Mágica</li>
+                            <li><strong>Status:</strong> Morta</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card de Links Externos -->
+                    <div class="bg-slate-700/50 p-6 rounded-lg">
+                        <h2 class="text-2xl font-bold text-white mb-4 border-b-2 border-cyan-500 pb-2">Links</h2>
+                        <div class="flex flex-col space-y-3">
+                           <a href="https://youtu.be/TzODg1r1Lz0?si=QtjUZFY0Be4WefR5" class="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors duration-300" target="_blank">Transformação de Sayaka</a>
+                           <a href="https://youtu.be/s2zC68NiYMI?si=fDVLTHgZro2q432o" class="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors duration-300" target="_blank">Sayaka em combate</a>
+                           <a href="https://youtu.be/zaWIAqbBmq0?si=k2oLd_xAIdY4bIBF" class="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors duration-300" target="_blank">Bruxa de Sayaka</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card do GIF Bônus (Estrutura Corrigida) -->
+                    <div class="bg-slate-700/50 p-6 rounded-lg text-center">
+                         <img 
+                            src="saya%20grita.gif" 
+                            alt="GIF por Hangaku" 
+                            class="w-full object-cover rounded-lg shadow-md"
+                            onerror="this.onerror=null;this.src='https://placehold.co/500x375/1e293b/94a3b8?text=Erro+ao+carregar';"> 
+                         <span class="text-sm text-gray-400 mt-2 block">By Hangaku</span>
+                    </div>
+
+                    <!-- Card de Links dos Amigos (Estrutura Corrigida) -->
+                    <div class="bg-slate-700/50 p-6 rounded-lg">
+                        <h2 class="text-2xl font-bold text-white mb-4 border-b-2 border-cyan-500 pb-2">Links dos amigos</h2>
+                        <div class="flex flex-col space-y-3">
+                           <a href="https://cetrouz.github.io/Acorde-Citizen-Sleeper/" class="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors duration-300" target="_blank">Citizen Sleeper</a>
+                           <a href="https://h3inknn.github.io/fanclube-do-meu-gato/" class="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors duration-300" target="_blank">Gato bundudo</a>
+                           <a href="#" class="text-cyan-400 hover:text-cyan-300 hover:underline transition-colors duration-300">Bia</a>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Coluna da Direita: Biografia e Detalhes -->
+                <article class="lg:col-span-2 space-y-8">
+                    <!-- Seção Sobre -->
+                    <section>
+                        <h2 class="text-3xl font-bold text-white mb-4 border-b-2 border-slate-600 pb-2">Sobre</h2>
+                        <img src="goive.gif"
+                             alt="GIF de Sayaka Miki" class="w-full rounded-lg mb-4"
+                             onerror="this.onerror=null;this.src='https://placehold.co/640x360/1e293b/94a3b8?text=Erro';">
+                        <p class="text-gray-300 leading-relaxed">
+                            Este site tem o objetivo de citar coisas interessantes sobre Sayaka Miki, personagem de Madoka Magica.
+                        </p>
+                    </section>
+                    
+                    <!-- Seção geral com imagem ao lado do texto -->
+                    <section>
+                        <h2 class="text-3xl font-bold text-white mb-4 border-b-2 border-slate-600 pb-2">Informações Gerais</h2>
+                        <div class="flex flex-col md:flex-row gap-6 items-start">
+                            <div class="flex-1">
+                                <p class="text-gray-300 leading-relaxed">
+                                    Sayaka Miki, também autoproclamada como "A Garota Mágica da Justiça", é uma das personagens principais da animação japonesa Puela Magi-Madoka Magica (2011), também tendo aparição em Madoka Magica Rebellion (2013) como uma das personagen sprincipais, e em Magia Record (2017) como personágem secundária.Sayaka também tem aparição em inúmeros mangás oficiais de Madoka Magica, como Puela Magi, The Diferent History, Rebellion, etc.
+                                </p>
+                            </div>
+                            <div class="md:w-1/3 flex-shrink-0">
+                                <img src="saya%20chibi.gif" 
+                                     alt="Arte de Sayaka por Hangaku" class="w-full rounded-lg shadow-md"
+                                     onerror="this.onerror=null;this.src='https://placehold.co/400x400/1e293b/94a3b8?text=Erro';">
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Seção Aparência -->
+                    <section>
+                        <h2 class="text-3xl font-bold text-white mb-4 border-b-2 border-slate-600 pb-2">Aparência</h2>
+                        <div class="space-y-4 text-gray-300 leading-relaxed">
+                            <p>Sayaka Miki é uma adolescente de estatura baixa/mediana, de pele clara, com olhos azuis escuros, e cabelo curto, indo até os ombros, de tom azul claro.</p>
+                            <p>Como estudante, sua vestimenta é um uniforme feminino do fundamental, se baseando em uma blusa manga comprida bege com detalhes brancos e vermelhos (com um laço vermelho na região do peito), saia preta plissada com linhas orizontais e verticais brancas, meias até a canela de tom azul escuro, e sapatos marrons. Há dois clipes dourados básicos em seu cabelo, logo atrás de sua franja e orelha.</p>
+                            <p>Em sua transformação de Garota Mágica, Sayaka usa um peitoral azul tomara-que-caia com detalhes dourados e babados brancos, espartilho branco com botões e detalhes em dourado, luvas azuis escuras até os ombros por dentro de luvas brancas até o pulso, saia plissada azul escuro com uma fita branca na parte de baixo, cinto azul escuro com a fivela dourada, meias 7/8 brancas com detalhes em azul e dourado, botas curtas azul claro com um pequeno salto, e uma longa capa branca alinhada com o colar branco e dourado em seu pescoço . Em seu cabelo há um clipe dourado em formato de 2f's, e em seu umbigo há uma pedra azul em fomato de lua crescente, sendo essa sua Soul Gem.</p>
+                        </div>
+                        <div class="mt-6 flex flex-col sm:flex-row gap-4 justify-center text-center">
+                            <div class="flex-1">
+                                <img src="roupa%20normal.jpg" alt="Sayaka como estudante" class="rounded-lg w-full object-cover">
+                                <span class="text-sm text-gray-400 mt-2 block">Estudante</span>
+                            </div>
+                            <div class="flex-1">
+                                <img src="roupa%20magica.jpg" alt="Sayaka como Garota Mágica" class="rounded-lg w-full object-cover">
+                                <span class="text-sm text-gray-400 mt-2 block">Garota Mágica</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Seção personalidade -->
+                    <section>
+                        <h2 class="text-3xl font-bold text-white mb-4 border-b-2 border-slate-600 pb-2">Personalidade</h2>
+                        <div class="space-y-4 text-gray-300 leading-relaxed">
+                            <p>Sayaka é apresentada como uma garota enérgica e animada, que costuma fazer brincadeiras bobas e provocações com suas amigas, em especial Madoka Kaname, e que geralmente leva as coisas de forma casual e amena. Apesar de sua postura "cool" na maior parte o tempo, Sayaka é uma menina responsável e bastante determinada a defener seus amigos, coelgas e entes queridos, tendo assim um senso de justiça bem forte e consolidado, e desprezando quem faz mal a quem ela ama.</p>
+                            <p>No entanto, com o passar dos episódios, e graças a certas descobertas traumáticas, Sayaka se torna mais cética e abatida, ficando até agressiva com suas amigas mais próximas e se recusando a aceitar ajuda e piedade de qualquer um, até finalmente sucumbir ao próprio desespero e se tornar Oktavia von Seckendorff.</p>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <h2 class="text-3xl font-bold text-white mb-4 border-b-2 border-slate-600 pb-2">Armas e Habilidades</h2>
+                        <div class="space-y-4 text-gray-300 leading-relaxed">
+                            <p>Sayaka Miki porta uma espada de médio porte com a bainha preta e dourada, e uma lâmina fina prateada com detalhes em azul. Sayaka tem a capacidade de invocar quantas espadas quiser, usando as para combate comum, ou as arremessando. É subentendido que Sayaka possa ser ambidestra, dado que em certas cenas, a garota porta uma espada em cada mão. Além da habilidade com lâminas, Sayaka, graças ao seu desejo de curar alguém, desenvolveu o poder de cura super rápida e resistência acima da média (em comparação a de outras garotas mágicas) podendo receber golpes fatais e continuar se movendo. Um exemplo disso é em Magia Record, onde sua mão é decepada durante uma luta, e depois realojada perfeitamente em poucos segundos.</p>
+                            <p> Ela também controla a bruxa e tal. </p>
+                        </div>
+                    </section>
+                
+                    <!-- Seção História -->
+                    <section>
+                        <h2 class="text-3xl font-bold text-white mb-4 border-b-2 border-slate-600 pb-2">História</h2>
+                        <div class="space-y-4 text-gray-300 leading-relaxed">
+                            <p>Na história de Puella Magi Madoka Magica, Sayaka Miki, assim como Madoka Kaname, é uma adolescente comum do 8° ano que se torna uma das garotas persuadidas por Kyuubey a se tornarem Garotas Mágicas. Na história do anime, Sayaka é a sucessora de Mami Tomoe para proteger Mitakihara das Bruxas, até ironicamente acabar transformando-se em uma delas, sendo derrotada por Kyoko Sakura. Após Madokami reescrever o universo no último episódio, Sayaka é liberta do desespero e desaparece em paz, assim como todas as Garotas Mágicas que sucumbiram ao desespero anteriormente. No filme Rebellion, Sayaka é uma enviada de Madokami para o labirinto de bruxa que Homura criou, e se responsabiliza por vigiar a garota e assegurar que tudo se resolva quando Homura lembrar quem realmente é. Nessa realidade, Sayaka tem a capacidade de controlar sua própria Bruxa, a Octavia, e permanece com as lembranças de todas as outras timelines que participou. No fim do filme, após Homura roubar os poderes de Madoka reescrever a realidade, Sayaka confronta a outra garota, que agora se tornou um Demônio. Com isso, Homura apaga as memórias de Sayaka e a força a viver em sua ilusão junto com todas as outras.</p>
+                        </div>
+                    </section>
+                    
+                    <!-- Seção Relacionamentos (Estrutura Corrigida com UL) -->
+                    <section>
+                        <h2 class="text-3xl font-bold text-white mb-4 border-b-2 border-slate-600 pb-2">Relacionamentos principais</h2>
+                        <ul class="space-y-8">
+                            <!-- Template para cada relacionamento -->
+                            <li>
+                                <strong>Kyosuke Kamijō (Interesse amoroso)</strong>
+                                <div class="flex flex-col md:flex-row gap-4 items-start mt-2">
+                                    <div class="flex-1">
+                                        <p class="text-gray-400 pl-4">Kyosuke é o mlk chato q a Sayaka é afim e vende a alma pra salvar, oq é uma merda pq ele é tão pão com ovo q ela combinaria mais com qualquer outra pessoa no universo, além de q né, ele decidiu pegar a bestie da coitada sem nem dar satisfação. Ele é o exemplo de como mulher q gosta de homem se fode na vida pq pqp tá foda. Pelo menos no fim a Sayaka supera ele e começa a arrastar asa pra Kyoko, q pelo menos é uma gado do caralho e faz tudo pela crush, msm sendo uma orfã pobre fudida. Kyosaya canon.</p>
+                                    </div>
+                                    <div class="md:w-1/3 flex-shrink-0">
+                                        <img src="kyosuke.png" alt="Kyosuke Kamijō" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Erro';">
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <strong>Madoka Kaname (Aliada/Amiga)</strong>
+                                <div class="flex flex-col md:flex-row gap-4 items-start mt-2">
+                                    <div class="flex-1">
+                                        <p class="text-gray-400 pl-4">Madoka e Sayaka são melhores amigas de infância, possuindo um grande vínculo desde então. Sayaka costuma proteger Madoka sempre que possível e demonstra forte apreço e possessividade com sua amiga, tanto que constantemente faz piadas de que Madoka é "só dela" e "sua futura noiva". Entretanto, do decorrer da história do anime, com Sayaka entrando numa espiral de sofrimento e traumas, a garota acaba por maltratar Madoka e agir de modo cruel com a amiga, sendo esse fato um dos percursores para Sayaka sucumbir ao desespero no fim, banhada pela culpa. Em Rebellion, Madoka e Sayaka voltam a ter uma relação amigável.</p>
+                                    </div>
+                                    <div class="md:w-1/3 flex-shrink-0">
+                                        <img src="madoka.png" alt="Madoka Kaname" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Erro';">
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <strong>Mami Tomoe (Aliada/Amiga)</strong>
+                                <div class="flex flex-col md:flex-row gap-4 items-start mt-2">
+                                    <div class="flex-1">
+                                        <p class="pl-4 text-gray-400">Sayaka admira profundamente Mami desde que se conheceram, quando Mami a salvou de uma bruxa, e tem o objetivo de ser uma Garota Mágica tão boa quanto ela. Quando Mami morreu, Sayaka se sentiu impotente e amarga consigo mesma, um dos motivos pelo qual decidiu fazer o contrato de Garota Mágica pouco tempo depois. Em Rebellion, ambas mantêm uma relação amistosa como parte do Holy Quintet.</p>
+                                    </div>
+                                    <div class="md:w-1/3 flex-shrink-0">
+                                         <img src="mami%201.png" alt="Mami Tomoe" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Imagem+indisponível';">
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <strong>Kyuubey/Incubator (Amigo/Inimigo)</strong>
+                                <div class="flex flex-col md:flex-row gap-4 items-start mt-2">
+                                    <div class="flex-1">
+                                        <p class="pl-4 text-gray-400">Kyuubey é o ser enigmático responsável por conceder desejos e transformar garotas em Garotas Mágicas.A relação de Sayaka e Kyuubey começa amistosa, com Kyuubey a auxiliando sobre o conceito de Garota Mágica, e a persuadindo a fazer um contrato, coisa que acontece após a morte de Mami Tomoe. Após isso, a relação de ambos continua de cooperação por um tempo, até Sayaka finalmente descobrir sobre os pontos negativos de ser uma Garota Mágica e tudo que Kyuubey esconde dela. Após a revelação de que Sayaka vendeu sua alma, Kyuubey começa a revelar suas verdadeiras cores e sua natureza apática, quebrando assim o vínculo anterior com Sayaka, que começa a se ressentir de sua escolha e de ter confiado em Kyuubey em primeiro lugar. No fim, Sayaka se torna uma Bruxa, sendo exatamente o que Kyuubey queria desde o início.</p>
+                                    </div>
+                                    <div class="md:w-1/3 flex-shrink-0 space-y-4">
+                                         <img src="kyubey%201.png" alt="Kyuubey" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Imagem+indisponível';">
+                                         <img src="kyubey%202.png" alt="Kyuubey 2" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Imagem+indisponível';">
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <strong>Kyoko Sakura (Rival/aliada/amiga)</strong>
+                                <div class="flex flex-col md:flex-row gap-4 items-start mt-2">
+                                    <div class="flex-1">
+                                        <p class="pl-4 text-gray-400">Kyoko e Sayaka se conheceram de modo durante uma batalha contra um familiar, e tiveram uma relação conturbada desde então, em que ambas se desprezavam completamente. Entretanto, com o passar dos acontecimentos do anime, as duas garotas começam a se entender de um modo menos negativo, com Kyoko em especial nutrindo um grande desejo de ajudar e salvar Sayaka em seu pior momento, até mesmo se sacrificando para isso. No filme Rebellion, Kyoko e Sayaka nutrem uma rivalidade amigável e um vínculo afetivo mais forte e positivo, podendo ser subentendido como romântico em certas oportunidades, mas não é algo 100% confirmado. No filme, Sayaka confessa à Kyoko que o motivo de querer voltar à vida foi por sentir falta da outra garota, e se arrepender de tê-la deixado para trás.</p>
+                                    </div>
+                                    <div class="md:w-1/3 flex-shrink-0 space-y-4">
+                                         <img src="kyoko%201.png" alt="Kyoko Sakura 1" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Imagem+indisponível';">
+                                         <img src="kyoko%202.png" alt="Kyoko Sakura 2" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Imagem+indisponível';">
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <strong>Homura Akemi (Rival)</strong>
+                                <div class="flex flex-col md:flex-row gap-4 items-start mt-2">
+                                    <div class="flex-1">
+                                        <p class="pl-4 text-gray-400">Sayaka desconfia de Homura desde que a conheceu na escola, e esse sentimento ficou cada vez mais forte, principalmente após ela e Madoka descobrirem que Homura é uma Garota Mágica de índole duvidosa. A relação de Sayaka e Homura só piora quando Sayaka se torna Garota Mágica, com Homura até mesmo tentando assassinar a outra garota em certo momento por não aceitar cooperação. Entretanto, Homura ainda se preocupa com Sayaka de sua própria maneira, pois a conhece de outras linhas do tempo. Em Rebellion, ambas têm uma relação amena e pacífica até Homura descobrir sobre a Bruxa que prende todas em Mitakihara, o que gera conflito com Sayaka, que não quer que Homura tente algo contra a Bruxa.</p>
+                                    </div>
+                                    <div class="md:w-1/3 flex-shrink-0">
+                                         <img src="homura.png" alt="Homura Akemi" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Imagem+indisponível';">
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <strong>Hitomi Shizuki (Amiga)</strong>
+                                <div class="flex flex-col md:flex-row gap-4 items-start mt-2">
+                                    <div class="flex-1">
+                                        <p class="pl-4 text-gray-400">Hitomi é uma amiga próxima de Sayaka, que em certo momento acaba por confessar estar apaixonada por Kyosuke, assim como Sayaka, o que gera certo conflito na relação e no psicológico de Sayaka, pois tal acontecimento foi um dos pilares para a ruína da garota, que se tornou invejosa e amarga por não ter seu amor correspondido. Em Rebellion, Sayaka, ao já ter superado seu antigo amor, volta a ter uma boa amizade com Hitomi.</p>
+                                    </div>
+                                    <div class="md:w-1/3 flex-shrink-0">
+                                         <img src="hitomi.png" alt="Hitomi Shizuki" class="rounded-lg w-full shadow-md object-cover" onerror="this.onerror=null;this.src='https://placehold.co/300x200/1e293b/94a3b8?text=Imagem+indisponível';">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
